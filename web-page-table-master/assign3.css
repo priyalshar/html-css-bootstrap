@@ -1,0 +1,114 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5em;
+}
+/*/navbar*/
+.navbar {
+    background-color: rgb(56, 54, 54);
+    padding: 10px 10px 10px 10px; 
+    height: 50px;
+  }
+  /* navnar input serach bar*/
+input[type=text]{
+
+    width: 77%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: rgb(56, 54, 54);
+    border: rgb(56, 54, 54);
+   
+}
+
+input[type=text]:focus {
+    background-color: white;
+  }
+input::placeholder {
+    color:white;
+    font-size: 1.2em;
+    font-style: normal;
+
+  }
+
+  /* navbar button*/
+  
+
+    .btn1:hover{
+        color: silver;
+    }
+    /* sidebar*/
+    .sidebar{
+       align-items: center;
+        float:left;
+        width: 17%;
+        height: auto;
+        
+    }
+    .sidebar ul{
+        list-style-type: none;
+        margin-left: 10px;
+        
+       
+        }
+    .sidebar li{
+        padding:10px;
+        font-size: 15px;
+        font-style: normal;
+        color: rgb(58, 56, 56);
+        
+    }
+    .fa{
+        padding-right: 8px;
+        color: rgb(129, 123, 123);
+    }
+    .fa-plus-circle{
+        float: right;
+        margin-top: 3px;
+        margin-inline-end: 18px;
+    }
+    /*showcase*/
+    .showcase{
+        line-height: 1.5em;
+        display: block;
+    }
+
+    h2{
+        float: left;
+        margin: 10px;
+        width: 20%;
+    
+    }
+    .btt{
+        float:right;
+        margin-inline-end: 20px;
+        margin-top: 10px;
+        width: 30%;
+        color: grey;
+    }
+    /*table*/
+    .section{
+        margin-top: 150px;
+        box-sizing: border-box;
+    
+    }
+    .section p{
+        margin-top: 100px;
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    th, td {
+  
+        border-bottom: 1px solid #ddd;
+        padding: 10px;
+      }
+    .section tr:nth-child(even){
+        background-color:lightgrey;
+       
+      }
+      th{
+          font-size: medium;
+      }
+      .section table{
+          width: 80%;
+      }
